@@ -21,11 +21,12 @@ define(['models/player'], function(PlayerModel){
         }
       },
       collectionCleanup: function (callback) {
-        //this.ioUnbindAll();
+        // this.ioUnbindAll();
         this.each(function (model) {
           model.modelCleanup();
         });
         this.reset();
+        t
         return this;
       }
 

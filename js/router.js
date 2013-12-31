@@ -50,7 +50,7 @@ define([
 
 		, initialize: function () {
 			// TODO: Comments out the following if wishing not to record the routes in browser's history
-			window.socket = io.connect('http://localhost:1401');
+			window.socket = io.connect('http://localhost:1404');
 			Backbone.history.start();
 			// END TODO
 		}

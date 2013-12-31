@@ -1,0 +1,28 @@
+#default {
+  margin: auto;
+  text-align: center;
+}
+#default #join.hidden {
+  display: none;
+}
+#racing-track {
+  width: 100%;
+  height: 35%;
+  border: solid 1px;
+}
+#racing-track .car {
+  width: 30px;
+  height: 20px;
+  border: solid 1px;
+  margin: 2px;
+}
+#racing-track .car.hidden {
+  display: none;
+}
+#go-container {
+  margin: auto;
+  text-align: center;
+}
+#go-container #go.hidden {
+  display: none;
+}
